@@ -1,4 +1,3 @@
-
 interface IPrinter {
     void print(long area);
 }

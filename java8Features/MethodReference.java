@@ -1,3 +1,5 @@
+package java8Features;
+
 interface Runner {
     void run();
 }
@@ -24,6 +26,5 @@ class MethodReference {
         rn1.run();
         rn2.run();
         rn3.run();
-
     }
 }
