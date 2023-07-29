@@ -1,12 +1,9 @@
 import java.util.*;
-
-import javax.lang.model.element.Element;
-
 import java.io.*;
 
 // -------------------------Main class-------------------------
 
-public class Main
+public class Template
 {
 
 
@@ -62,9 +59,10 @@ public class Main
 	}
     // -------------------------Main function-------------------------
     
+    static FastReader sc;
     public static void main(String args[]) throws IOException
     {
-        FastReader sc=new FastReader();
+        sc=new FastReader();
         PrintWriter pw=new PrintWriter(System.out);
         int t=sc.nextInt();
     
@@ -76,9 +74,9 @@ public class Main
         pw.close();
     }
 
-    public static solve() {
-        int n = sc.next();
-        System.out.Println()
+    static void solve() {
+        int n = sc.nextInt();
+        System.out.println(n);
     }
 
     static int msb(int n)
@@ -196,7 +194,7 @@ public class Main
             a=a>>1;
             b=b>>1;
         }
-        return (long)(a<<shiftcount);
+        return (a<<shiftcount);
     }
 
     // Time Complexity : n*m
@@ -359,10 +357,10 @@ public class Main
     }
 
     // Time Complexity : log(min(a,b))
-    static long gcd(long a, long b)
-    {
-		return b==0?a:gcd(b,a%b);
-	}
+    static long gcd(long a, long b) {
+        return b==0 ? a: gcd(b, a%b);
+    }
+    
 
     // Time Complexity : log(min(a,b))
     static long lcm(long a, long b)

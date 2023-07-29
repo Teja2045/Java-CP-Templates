@@ -1,10 +1,7 @@
-package practice;
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
-public class Codechef {
+public class LazyPropogation {
 
     static int a[];
     static int tree[][];
