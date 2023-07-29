@@ -1,3 +1,5 @@
+package java8Features;
+
 interface IPrinter {
     void print(long area);
 }
