@@ -1,5 +1,6 @@
 package java8Features;
 
+// functional interface
 interface IPrinter {
     void print(long area);
 }
