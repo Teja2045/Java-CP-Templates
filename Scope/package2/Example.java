@@ -6,7 +6,9 @@ public class Example extends Animal {
     Animal an = new Animal();
 
     void trying() {
+        // outside package + no inheritance
         int x = an.ears;
+        // outside package + inheritance
         System.out.println(super.ears);
     }
 
