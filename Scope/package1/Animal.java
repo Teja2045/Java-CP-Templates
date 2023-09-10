@@ -4,12 +4,12 @@ package Scope.package1;
  * public > protected > default > private
  * 
  * everywhere 
- * > (anywhere in same package + via inheritence in outside package)
+ * > (anywhere in same package + via inheritance in outside package)
  * > (inside only the same package)
  * > (only inside the class)
  */
 public class Animal {
-    // public, default, protected, private
+    // public, protected, default, private
     protected int ears = 2;
 
     public void bark() {
