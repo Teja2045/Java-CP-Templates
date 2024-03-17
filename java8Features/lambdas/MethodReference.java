@@ -1,4 +1,4 @@
-package java8Features;
+package lambdas;
 
 interface Runner {
     void run();

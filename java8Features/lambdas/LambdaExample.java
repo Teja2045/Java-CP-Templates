@@ -1,4 +1,4 @@
-package java8Features;
+package lambdas;
 
 // functional interface
 interface IPrinter {
