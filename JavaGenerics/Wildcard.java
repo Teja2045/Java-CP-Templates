@@ -16,7 +16,7 @@ class Test {
 
     @Override
     public String toString() {
-        return "toString = " + identifier;
+        return "test toString = " + identifier;
     }
 }
 
@@ -60,6 +60,8 @@ public class Wildcard<T extends Test & Iterable<T> & Comparable<T>> {
     }
 
     public static <T> String genericsCheck(List<T> li) {
+        li.forEach(ele -> System.out.println(ele));
         return li.toString();
+
     }
 }
